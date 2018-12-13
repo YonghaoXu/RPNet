@@ -22,17 +22,22 @@ Please cite our papers if you find it useful for your research.
 ```
 
 ## Installation
-* Install .
-  - Note: This repo is .
-
 * Clone this repo.
 ```
 git clone https://github.com/YonghaoXu/RPNet
 ```
 
 ## Dataset
-* Download the [Pavia University dataset](http://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes).
+* We have uploaded the Indian Pines image and the corresponding annotations into the `dataset` folder.
 
 ## Usage
-* Replace the file path for the hyperspectral data in `.` with yours.
-* Run `.`.
+* Add the directory path for the dependencies files in the `RPNet.m`.
+```
+addpath(genpath('/utils/'))
+addpath(genpath('/dataset/'))
+```
+You may change these two commands according to your environment.
+* Run `RPNet.m`.
+
+## Acknowledgement
+* The [LibSVM](https://github.com/cjlin1/libsvm) package from [Prof. Chih-Jen Lin](https://www.csie.ntu.edu.tw/~cjlin/index.html) is utilized for the SVM classification in this repo. 
