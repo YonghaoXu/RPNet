@@ -31,7 +31,7 @@ git clone https://github.com/YonghaoXu/RPNet
 * We have uploaded the Indian Pines image and the corresponding annotations into the `dataset` folder.
 
 ## Usage
-* Add the directory path for the dependencies files in the `RPNet.m`.
+* Add the directory path for the dependencies files in `RPNet.m`.
 ```
 addpath(genpath('/utils/'))
 addpath(genpath('/dataset/'))
