@@ -1,6 +1,6 @@
 %% Load data
-addpath(genpath('/utils/'))
-addpath(genpath('/dataset/'))
+addpath(genpath('utils'))
+addpath(genpath('dataset'))
 a = load('Indian_pines_corrected.mat');
 Data = a.data;
 [row,col,num_feature] = size(Data);
