@@ -7,7 +7,7 @@ Matlab implementation of our method for hyperspectral image classification.
 ## Paper
 [Hyperspectral Image Classification via a Random Patches Network](https://www.sciencedirect.com/science/article/pii/S0924271618301473)
 
-Please cite our papers if you find it useful for your research.
+Please cite our paper if you find it useful for your research.
 
 ```
 @article{rpnet,
